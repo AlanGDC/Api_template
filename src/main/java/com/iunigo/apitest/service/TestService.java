@@ -4,11 +4,12 @@ import org.springframework.stereotype.Service;
 
 import com.iunigo.apitest.dto.HolaRequest;
 import com.iunigo.apitest.dto.HolaResponse;
+import com.iunigo.apitest.exceptions.InvalidCredentialsException;
 
 @Service
 public class TestService {
 
-	public HolaResponse getHola(HolaRequest request) {
+	public HolaResponse getHola(HolaRequest request) throws InvalidCredentialsException {
 		if (request.getUser().equals("pepe") && request.getPassword().equals("12345")) {
 			HolaResponse response = new HolaResponse();
 
@@ -18,7 +19,7 @@ public class TestService {
 
 			return response;
 		} else {
-			throw new RuntimeException("Invalid Credentials");
+			throw new InvalidCredentialsException("Invalid Credentials");
 		}
 	}
 }
