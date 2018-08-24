@@ -12,7 +12,7 @@ import org.junit.Test;
 
 
 public class Dbconnection {
-	@Test
+/*	@Test
     public static void connect(){
 
         String url = "jdbc:mysql://localhost:3306/testdb?useSSL=false";
@@ -35,5 +35,5 @@ public class Dbconnection {
             Logger lgr = Logger.getLogger(query);
             lgr.log(Level.SEVERE, ex.getMessage(), ex);
         } 
-    }
+    }*/
 }

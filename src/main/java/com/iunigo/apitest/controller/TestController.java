@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.iunigo.apitest.dto.HolaRequest;
 import com.iunigo.apitest.dto.HolaResponse;
+import com.iunigo.apitest.exceptions.InvalidCredentialsException;
 import com.iunigo.apitest.service.TestService;
 
 @RestController
@@ -18,7 +19,7 @@ public class TestController {
 	private TestService testService;
 	
 	@PostMapping("/test")
-	public ResponseEntity<?> helloWord(@RequestBody HolaRequest request){
+	public ResponseEntity<?> helloWord(@RequestBody HolaRequest request) throws InvalidCredentialsException{
 		
 		return new ResponseEntity<HolaResponse>(testService.getHola(request), HttpStatus.OK) ;
 	}
