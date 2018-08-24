@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.junit.Test;
+
 
 
 public class Dbconnection {
