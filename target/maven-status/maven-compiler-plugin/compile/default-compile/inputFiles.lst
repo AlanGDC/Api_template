@@ -1,8 +1,0 @@
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/dbconnection/Dbconnection.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/Application.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/controller/advice/TestControllerAdvice.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/exceptions/InvalidCredentialsException.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/dto/HolaResponse.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/service/TestService.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/dto/HolaRequest.java
-/home/alannote/eclipse-workspace/Api_template/src/main/java/com/iunigo/apitest/controller/TestController.java
